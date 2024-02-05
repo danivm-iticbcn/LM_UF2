@@ -11,7 +11,7 @@ language, copyrigth, ttl, image, item+)>
 <!ELEMENT ttl (#PCDATA)>
 <!ELEMENT image (url, title, link)>
 <!ELEMENT url (#PCDATA)>
-<!ELEMENT item (title, link, guid, description, pubDate, category*, comments, enclosure?)>
+<!ELEMENT item (title, link, guid, description, pubDate, category*, comments, enclosure*)>
 <!ELEMENT guid (#PCDATA)>
 <!ATTLIST guid isPermaLink (true | false)>
 <!ELEMENT category (#PCDATA)>
