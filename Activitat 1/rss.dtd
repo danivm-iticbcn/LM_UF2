@@ -1,0 +1,22 @@
+<!ELEMENT rss (channel)>
+<!ELEMENT channel (title, link, description, lastBuildDate, pubDate,
+language, copyrigth, ttl, image, item+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT lastBuildDate (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT copyrigth (#PCDATA)>
+<!ELEMENT ttl (#PCDATA)>
+<!ELEMENT image (url, title, link)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT item (title, link, guid, description, pubDate, category*, comments, enclosure?)>
+<!ELEMENT guid (#PCDATA)>
+<!ATTLIST guid isPermaLink (true | false)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT enclosure (#PCDATA)>
+<!ATTLIST enclosure url #REQUIRED>
+<!ATTLIST enclosure length>
+<!ATTLIST enclosure type #REQUIRED>
