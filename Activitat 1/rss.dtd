@@ -1,6 +1,5 @@
 <!ELEMENT rss (channel)>
-<!ELEMENT channel (title, link, description, lastBuildDate, pubDate,
-language, copyrigth, ttl, image, item+)>
+<!ELEMENT channel (title, link, description, lastBuildDate, pubDate, language, copyrigth, ttl, image, item+)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT link (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
